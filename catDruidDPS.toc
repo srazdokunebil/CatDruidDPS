@@ -1,0 +1,8 @@
+## Author: Cernie
+## Interface: 11200
+## Title: CatDruidDPS
+## Notes: Script function for smart Cat Druid DPS
+## Dependencies: SuperMacro
+## Version: 1.18
+catDruidDPS.xml
+catDruidDPS.lua
