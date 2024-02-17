@@ -81,10 +81,10 @@ function CatDruidDPS_main(mainDamage, opener, finisher, isPowerShift, druidBarAd
 
 	if(CatDruidDPS_getSpellId("Innervate") ~= nil) then 
 		_, innervateCooldown, _ = GetSpellCooldown(CatDruidDPS_getSpellId("Innervate"), BOOKTYPE_SPELL); end;
-		
+
 	--if(CatDruidDPS_getSpellId(mainDamage) ~= nil) then 
 		--_, mainAbilityCooldown, _ = GetSpellCooldown(CatDruidDPS_getSpellId(mainDamage), BOOKTYPE_SPELL); end;
-	
+
 	--find out if Rune of Metamorphosis is equipped and get its cooldown
 	if(trinketLink1 ~= nil and hasRuneOfMetamorphosisEquipped == nil) then
 		if(string.find(trinketLink1, runeOfMetamorphosisTrinket)) then 
